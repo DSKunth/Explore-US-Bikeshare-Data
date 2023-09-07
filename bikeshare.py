@@ -1,11 +1,10 @@
 import time
 import pandas as pd
-import numpy as np
 import calendar
 
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+CITY_DATA = {'chicago': 'data\chicago.csv',
+             'new york city': "data\city_new_york.csv",
+             'washington': 'data\washington.csv'}
 
 def get_filters():
     """
